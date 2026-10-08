@@ -1,0 +1,44 @@
+[
+  {
+    "key": "tw_best",
+    "market": "TW",
+    "kind": "html",
+    "url": "https://www.tradingview.com/markets/stocks-taiwan/market-movers-best-performing/"
+  },
+  {
+    "key": "us_best",
+    "market": "US",
+    "kind": "html",
+    "url": "https://www.tradingview.com/markets/stocks-usa/market-movers-best-performing/"
+  },
+  {
+    "key": "tw_rs",
+    "market": "TW",
+    "kind": "mcp_screener",
+    "params": {
+      "market": "taiwan",
+      "filters": { "Perf.3M": [30, null] },
+      "sort_by": "Perf.3M",
+      "sort_order": "desc",
+      "limit": 100
+    }
+  },
+  {
+    "key": "us_rs",
+    "market": "US",
+    "kind": "mcp_screener",
+    "params": {
+      "market": "america",
+      "filters": { "Perf.Y": [80, null] },
+      "sort_by": "Perf.Y",
+      "sort_order": "desc",
+      "limit": 100
+    }
+  },
+  {
+    "key": "my_watchlist",
+    "market": "AUTO",
+    "kind": "mcp_watchlist",
+    "params": { "watchlist_id": "148356754" }
+  }
+]

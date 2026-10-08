@@ -1,0 +1,20 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Local runtime state and generated data
+data/cache/
+data/history/chat.json
+data/tv_sources.json
+data/tv_scans/*.json
+tw_raw.json
+tw_kept.json
+
+# Execution history
+data/history/*.md
+
+.venv/
+.venv*/
+__pycache__/
+*.pyc
